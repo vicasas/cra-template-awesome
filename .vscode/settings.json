@@ -1,0 +1,7 @@
+{
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.debug": true
+}
