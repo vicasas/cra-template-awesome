@@ -8,14 +8,15 @@
 
 ## Features
 
-Este proyecto fue inicializado con [Create React App](https://create-react-app.dev/) por ende cuenta con todo el poder que ya viene de esta plantilla, más los siguientes:
+Cuenta con todo el poder que trae [Create React App](https://create-react-app.dev/) más lo siguiente:
 
 * ✨ **Redux**: Manejo del estado de tu aplicación.
 * ✨ **PropTypes**: Verificación de tipos para las props de React.
 * ✨ **React Router**: Manejo de la navegación de tu aplicación.
 * ✨ **Environments**: Entornos para ambiente development, staging y production.
+* ✨ **React.StrictMode**: Resalta problemas potenciales en la aplicación.
 
-Para que la experiencia de desarrollo (DX) se más asombrosa, contamos con lo siguiente:
+Para que la experiencia de desarrollo (DX) sea aún más asombrosa, contamos con lo siguiente:
 
 * ✨ **EditorConfig** (*): Mantén estilos de codificación consistentes.
 * ✨ **ESLint** (*): Encuentra y repara problemas en tu código JavaScript.
@@ -30,7 +31,7 @@ Para que la experiencia de desarrollo (DX) se más asombrosa, contamos con lo si
 Es muy fácil de comenzar a usar RTA, solo debes seguir los siguientes pasos para tener una versión propia en tu maquina local.
 
 ```bash
-git clone [URL] my-app
+git clone https://github.com/vicasas/cra-template-awesome.git my-app
 cd my-app
 npm install
 npm start
@@ -38,9 +39,9 @@ npm start
 
 ## Available Scripts
 
-Cuenta con todo el poder de los `scripts` que posee [Create React App](https://create-react-app.dev/) más los siguiente que hemos creado para ti.
+Cuenta con todo el poder de los `scripts` que posee [Create React App](https://create-react-app.dev/) más los siguientes que hemos creado para ti.
 
-⚠ Te sugerimos NO USAR `npm run eject`.
+> ⚠ Te sugerimos no usar `npm run eject` ⚠
 
 ### `npm run build:staging`
 
@@ -50,7 +51,7 @@ Se usa para hacer `build` de una solución que se usara directamente en tu maqui
 
 Se usa para hacer un `build` de una solución que se usara directamente en tu maquina development. Tomará las configuraciones que existan en el archivo de variables de entorno `.env.development`.
 
-🤔 ¿Qué hago para hacer un `build` en producción? *-se sigue usando por defecto `npm run build` que tomará las configuraciones que existan en el archivo de variables de entornos `.env.production`.*
+> 🤔 ¿Qué hago para hacer un `build` en producción? *-Se sigue usando por defecto `npm run build` que tomará las configuraciones que existan en el archivo de variables de entornos `.env.production`.*
 
 ### `npm run lint`
 
@@ -66,29 +67,33 @@ Se usa para dar formato al código siguiendo las reglas de Prettier definas por 
 
 ## **ROADMAP**
 
-¿Que es lo próximo que se viene? 
+¿Que es lo próximo que se viene?
+
+🔔 Primero es lo primero, para lanzar nuestra v1.0.0 nos hemos puesto la meta de lograr ser un `package` admisible para los [Custom Template](https://create-react-app.dev/docs/custom-templates/) oficial de [Create React App](https://create-react-app.dev/), en donde los desarrolladores puedan instalar el template usando solo el comando `npx create-react-app my-app --template awesome`.
+
+💥 Problema: Actualmente el Custom Template de CRA no trabaja con las `devDependencies` del `package.json` dado que esta plantilla tiene dichas dependencias no la podemos llevar a lo que anhelamos. ¿Se podrá buscar una solución?.
+
+[...]
 
 🚀 Generar nuestra `CONTRIBUTORS.md` para contribuir al repositorio.
 
 🚀 Generar nuestro `CODE_OF_CONDUCT.md` para el código de conducta. 
 
-[...]
+🚀 Generar linters para la validación de los commits de Git.
 
-🚀 Nos gustaría llevar nuestra plantilla a ser una [Custom Template](https://create-react-app.dev/docs/custom-templates/) oficial de [Create React App](https://create-react-app.dev/), en donde los desarrolladores la puedan instalar solo usando el comando `npx create-react-app my-app --template [template-name]` que provee el mismo CRA.
+🚀 Generar automáticamente `CHANGELOG.md`.
 
-💥 Problema: Actualmente el custom template de CRA no trabaja con las `devDependencies` del `package.json` dado que esta plantilla tiene dichas dependencias no la podemos llevar a lo que anhelamos. ¿Se podrá buscar una solución?.
-
-🚀 Nos gustaría agregar linters para la validación de los commits de Git.
-
-🚀 Nos gustaría agregar la generación automatica de `CHANGELOG.md`.
-
-🚀 Nos gustaría agregar un manejo fácil para incrementar versiones semanticas en cada release, como por ejemplo lo que hace `npm version`.
+🚀 Generar versiones semanticas en cada release, como `npm version`.
 
 🚀 Generar componentes tipos helpers o utils esenciales para desarrolladores.
 
 🚀 Generar funciones tipos helpers o utils esenciales para desarrolladores.
 
-...Y claro, nos gustaría hacer muchas cosas más ❤. ¿Te animas? 🙌.
+...¡Y CLARO!, nos gustaría hacer muchas cosas más ❤. ¿Te animas a contribuir con nosotros? 🙌.
+
+## Changelog
+
+Para ver lo que a cambiado visita nuestro [CHANGELOG.md](./CHANGELOG.md)
 
 ## License
 

@@ -11,7 +11,7 @@ Todos los cambios notables a este proyecto se documentarán en este archivo.
 * EditorConfig
 * Husky
 * lint-staged
-* Environments personalizados, por defecto development, satging, production
+* Environments personalizados, por defecto development, staging, production
 * Redux, con redux Thunk
 * React Router DOM
 * PropTypes
@@ -21,3 +21,4 @@ Todos los cambios notables a este proyecto se documentarán en este archivo.
 * componente container NotFount
 * función request para hacer fetch api
 * funciones utilitarias para manejar fechas
+* React StrictMode
