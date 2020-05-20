@@ -2,6 +2,12 @@
 
 Todos los cambios notables a este proyecto se documentarán en este archivo.
 
+0.2.0 (2020-05-20)
+
+**Features**
+
+* Componentes tipo Layout público y privado
+
 0.1.0 (2020-05-16)
 
 **Features**
