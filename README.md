@@ -8,15 +8,22 @@
 
 ## Features
 
-Cuenta con todo el poder que trae [Create React App](https://create-react-app.dev/) más lo siguiente:
+Cuenta con todo el poder que trae [Create React App](https://create-react-app.dev/) más las siguientes tecnologías:
 
 * ✨ **Redux**: Manejo del estado de tu aplicación.
 * ✨ **PropTypes**: Verificación de tipos para las props de React.
 * ✨ **React Router**: Manejo de la navegación de tu aplicación.
 * ✨ **Environments**: Entornos para ambiente development, staging y production.
-* ✨ **React.StrictMode**: Resalta problemas potenciales en la aplicación.
 
 Para que la experiencia de desarrollo (DX) sea aún más asombrosa, contamos con lo siguiente:
+
+😍 ¡Componentes de ayuda ya integrados!
+
+* ✨ **React.StrictMode**: Resalta problemas potenciales en la aplicación.
+* ✨ **Public/Private Routes**: Manejo de rutas públicas y privadas.
+* ✨ **Public/Private Layout**: Manejo de Layout públicos y privados.
+
+😍 Herramientas para el desarrollo del código
 
 * ✨ **EditorConfig** (*): Mantén estilos de codificación consistentes.
 * ✨ **ESLint** (*): Encuentra y repara problemas en tu código JavaScript.
@@ -90,6 +97,10 @@ Se usa para dar formato al código siguiendo las reglas de Prettier definas por 
 🚀 Generar funciones tipos helpers o utils esenciales para desarrolladores.
 
 ...¡Y CLARO!, nos gustaría hacer muchas cosas más ❤. ¿Te animas a contribuir con nosotros? 🙌.
+
+## Contributing
+
+¿Te gusta RTA? Te invitamos a [colaborar con nosotros](./CONTRIBUTING.md) ❤😍🎉.
 
 ## Changelog
 
