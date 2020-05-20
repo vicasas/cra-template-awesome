@@ -8,7 +8,6 @@
   ],
   "description": "A custom template for the Create React Application.",
   "private": true,
-  "homepage": "https://github.com/vicasas",
   "repository": {
     "type": "git",
     "url": "https://github.com/vicasas/cra-template-awesome.git"
