@@ -1,6 +1,6 @@
 <h1 align="center">React Template Awesome</h1>
 <div align="center">
-  <sub>Created by <a href="https://github.com/vicasas">Víctor Casas</a> and forked from <a href="https://create-react-app.dev/">Create React App</a>.</sub>
+  <sub>Created by <a href="https://github.com/vicasas">Víctor Casas</a> and started with <a href="https://create-react-app.dev/">Create React App</a>.</sub>
 </div>
 <div align="center">
   <sub>Hecho con ❤ para LATAM</sub>
@@ -74,6 +74,10 @@ Se usa para dar formato al código siguiendo las reglas de Prettier definas por 
 💥 Problema: Actualmente el Custom Template de CRA no trabaja con las `devDependencies` del `package.json` dado que esta plantilla tiene dichas dependencias no la podemos llevar a lo que anhelamos. ¿Se podrá buscar una solución?.
 
 [...]
+
+🚀 Generar nuestra `CONTRIBUTORS.md` para contribuir al repositorio. ✔😍 ¡READY!
+
+🚀 Generar nuestro `CODE_OF_CONDUCT.md` para el código de conducta. ✔😍 ¡READY!
 
 🚀 Generar linters para la validación de los commits de Git.
 
