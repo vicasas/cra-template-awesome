@@ -75,10 +75,6 @@ Se usa para dar formato al código siguiendo las reglas de Prettier definas por 
 
 [...]
 
-🚀 Generar nuestra `CONTRIBUTORS.md` para contribuir al repositorio.
-
-🚀 Generar nuestro `CODE_OF_CONDUCT.md` para el código de conducta. 
-
 🚀 Generar linters para la validación de los commits de Git.
 
 🚀 Generar automáticamente `CHANGELOG.md`.
