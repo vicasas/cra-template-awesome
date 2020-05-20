@@ -1,6 +1,6 @@
 # Contributing to React Template Awesome (RTA)
 
-Loving Create React App and want to get involved? Thanks! The following guide is the first step in becoming a RTA contributor.
+Loving React Template Awesome and want to get involved? Thanks! The following guide is the first step in becoming a RTA contributor.
 
 Please take a moment to review this document in order to make the contribution process straightforward and effective for everyone involved.
 
