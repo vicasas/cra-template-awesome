@@ -22,11 +22,11 @@ There are some rules you need to abide by to speed up the process of reporting a
 
 ### Reporting a bug
 
-If you’ve found a bug within the project, use the [Bug report]() template when submitting an issue on GitHub. Following the template helps contributors to identify the bug and fix it more easily.
+If you’ve found a bug within the project, use the [Bug report](https://github.com/vicasas/cra-template-awesome/issues/new?assignees=&labels=&template=bug_report.md&title=) template when submitting an issue on GitHub. Following the template helps contributors to identify the bug and fix it more easily.
 
 ### Requesting a feature
 
-Is something missing from the project that you want to see added in the next version? Submit an issue using the [Request a feature]() template, and we’ll consider it.
+Is something missing from the project that you want to see added in the next version? Submit an issue using the [Request a feature](https://github.com/vicasas/cra-template-awesome/issues/new?assignees=&labels=&template=feature_request.md&title=) template, and we’ll consider it.
 
 ## Pull Requests
 
