@@ -1,17 +1,27 @@
 /**
- * LAYOUT
+ * Layout
  *
- * En este archivo viven los diferentes tipos de componentes Layout.
+ * In this file the different types of Layouts interact.
  */
 
 import React from 'react'
-import Route from '../routes'
+import Routes from '../routes'
 import PublicLayout from './PublicLayout'
+import PrivateLayout from './PrivateLayout'
+import isLogin from '../../utils/auth'
 
 export default function Layout() {
   return (
-    <PublicLayout>
-      <Route />
-    </PublicLayout>
+    <>
+      {!isLogin() ? (
+        <PublicLayout>
+          <Routes />
+        </PublicLayout>
+      ) : (
+        <PrivateLayout>
+          <Routes />
+        </PrivateLayout>
+      )}
+    </>
   )
 }
