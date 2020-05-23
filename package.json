@@ -1,6 +1,6 @@
 {
   "name": "cra-template-awesome",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A custom template for the Create React Application.",
   "main": "index.js",
   "dependencies": {
