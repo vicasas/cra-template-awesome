@@ -1,13 +1,11 @@
 /**
- * REDUCERS REDUX
+ * Reducers Redux
  *
- * El reductor sera quién se encarge de nuestros datos. Usando acciones
- * podemos actualizar el estado de nuestra aplicación.
+ * The reducer will be who is in charge of our data. Using actions
+ * we can update the status of our application.
  *
- * (*) No se olvide de hacer un import de sus constantes de acciones.
- *
- * Para crear un nuevo reductor:
- * const INITIAL_STATE = {} // estado inicial de la aplicación
+ * To create a new reducer:
+ * const INITIAL_STATE = {} // initial state of the application
  *
  * export const example = (state = INITIAL_STATE, action) => {
  *    switch (action.type) {

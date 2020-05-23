@@ -1,16 +1,16 @@
 /* eslint-disable react/jsx-props-no-spreading */
 
 /**
- * PUBLIC ROUTE
+ * Public Routes
  *
- * El componente <PublicRoute /> es un componente de orden superior para
- * todas las rutas definidas como públicas en la aplicación.
+ * This is a higher order component (HOC) for all routes defined as public
+ * in the application.
  */
 
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Route, Redirect } from 'react-router-dom'
-import isLogin from '../../utils/auth'
+import isLogin from '../../utils/authFake'
 
 export default function PublicRoute({
   component: Component,

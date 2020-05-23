@@ -1,15 +1,14 @@
 /**
- * ACTIONS REDUX
+ * Action Redux
  *
- * Las acciones cambian las cosas en tu aplicación. Esta es la única forma en
- * que la aplicación interactúa con el estado, garantizando que su estado
- * esté siempre actualizado.
+ * Actions change things in your app. This is the only way the application
+ * interacts with the state, ensuring it is always up to date.
  *
- * (*) No se olvide de hacer un import de sus constantes de acciones.
+ * To add a new action:
+ * import { EXAMPLE } from './constants/example'
  *
- * Para agregar una nueva acción:
  * export const example = () => (dispatch, getState) => {
- *    dispatch({ type: 'EXAMPLE' })
+ *    dispatch({ type: EXAMPLE })
  * }
  *
  */

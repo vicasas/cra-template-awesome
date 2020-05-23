@@ -1,12 +1,12 @@
 /**
- * REDUX
+ * Redux
  *
- * Este es un archivo de ejemplo para implementar correcta de Redux
+ * This is a sample file to implement correct Redux
  *
- * Usando HOOKS
+ * Using HOOKS
  *
- * useSelector equivale al mapStateToProps()
- * useDispatch equivale al mapDispatchToProps()
+ * useSelector equals mapStateToProps()
+ * useDispatch equals mapDispatchToProps()
  *
  * import React from 'react'
  * import { shallowEqual, useSelector, useDispatch } from 'react-redux'
@@ -18,8 +18,7 @@
  *    return <div>Hola Mundo</div>
  * }
  *
- *
- * Usando HOC
+ * Using HOC
  *
  * import React from 'react'
  * import { connect } from 'react-redux'

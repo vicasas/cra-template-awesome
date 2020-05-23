@@ -1,9 +1,9 @@
 /**
  * CONSTANTS REDUX
  *
- * Para evitar errores tipográficos extraños entre el reducer y los actions,
- * los guardamos como constantes aquí.
+ * To avoid weird typos between reducer and actions, we save them as
+ * constants here.
  *
- * Sigue este formato:
+ * Follow this format:
  * export const EXAMPLE = 'EXAMPLE'
  */

@@ -1,9 +1,9 @@
 /**
- * Parsea el JSON devuelto por una solitiud http.
+ * Parse the JSON returned by an http request.
  *
- * @param {object} response una respuesta de solicitud de red
+ * @param {object} response a network request response
  *
- * @return {object}         el JSON parseado de la solicitud
+ * @return {object}         the parsed JSON of the request
  */
 function parseJSON(response) {
   if (response.status === 204 || response.status === 205) {
@@ -14,11 +14,11 @@ function parseJSON(response) {
 }
 
 /**
- * Comprueba la respuesta http de una solicitud. Arroja un error si no.
+ * Check the http response of a request. Throw an error if not.
  *
- * @param {object} response   una respuesta de solicitud de red
+ * @param {object} response   a network request response
  *
- * @return {object|undefined} devuelve la respuesta o arroja un error
+ * @return {object|undefined} returns the answer or throws an error
  */
 function checkStatus(response) {
   if (response.status >= 200 && response.status < 300) {
@@ -31,24 +31,24 @@ function checkStatus(response) {
 }
 
 /**
- * Crea una nueva URL en base al endpoint más la URL base.
+ * Create a new URL based on the endpoint plus the base URL.
  *
- * @param {string} endpoint la url del punto final que queremos solicitar
+ * @param {string} endpoint the url of the endpoint that we want to request
  *
- * @return {string}         devuelve la url final de la solicitud
+ * @return {string}         returns the final url of the request
  */
 function createURL(endpoint) {
-  const baseURL = '' // configurar tu URL base
+  const baseURL = '' // configure your base url
   return `${baseURL}${endpoint}`
 }
 
 /**
- * Request a URL, retorna una promise.
+ * Request to URL, returns a promise.
  *
- * @param {string} endpoint   la url del punto final que queremos solicitar
- * @param {object} [options]  las opciones que queremos pasar a "buscar"
+ * @param {string} endpoint   the url of the endpoint that we want to request
+ * @param {object} [options]  the options we want to move to "search"
  *
- * @return {object}           los datos de respuesta
+ * @return {object}           the response data
  */
 export default function request(endpoint, options = {}) {
   const defaults = {

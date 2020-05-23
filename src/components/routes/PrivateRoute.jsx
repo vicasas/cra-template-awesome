@@ -1,21 +1,21 @@
 /* eslint-disable react/jsx-props-no-spreading */
 
 /**
- * PRIVATE ROUTE
+ * Public Routes
  *
- * El componente <PrivateRoute /> es un componente de orden superior para
- * todas las rutas definidas como privadas en la aplicación.
+ * This is a higher order component (HOC) for all routes defined as privates
+ * in the application.
  */
 
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Route, Redirect } from 'react-router-dom'
-import isLogin from '../../utils/auth'
+import isLogin from '../../utils/authFake'
 
 export default function PrivateRoute({ component: Component, ...rest }) {
   return (
-    // Muestra el componente solo cuando el usuario esta autenticado.
-    // en caso contrario, redireccione a la ruta /signin
+    // Shows the component only when the user is authenticated
+    // otherwise, redirect to the path/signin.
     <Route
       {...rest}
       render={(props) =>

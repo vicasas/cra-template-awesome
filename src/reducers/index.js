@@ -1,17 +1,17 @@
 /**
  * combineReducers()
  *
- * En este archivo se hace la combinación de los reducers usando
- * combineReducers(). Este es el único punro de salida para poder
- * interactuar con los estados de la aplicación.
+ * This file is used to combine reducers using combineReducers().
+ * This is the only exit point to be able to interact with the
+ * states of the application.
  *
- * Sigue este formato:
+ * Follow this format:
  * import { combineReducers } from 'redux'
- * import exampleReducer from './example' // importamos el reducer
+ * import exampleReducer from './example' // we import the reducer
  *
  * export default combineReducers({
  *    example: () => ({
- *      exampleReducer, // ó usar example: exampleReducer
+ *      exampleReducer, // or use example: exampleReducer
  *    }),
  * })
  */

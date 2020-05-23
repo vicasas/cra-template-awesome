@@ -1,12 +1,12 @@
 /**
- * LAYOUT PUBLIC
+ * Public Layout
  *
- * En este archivo se arma el Layout Público de la aplicación, esta sera
- * la vista que vera el usuario en caso de una aplicación que cuente con
- * autenticación y el usuario no este logeado (páginas públicas).
+ * In this file the public design of the application is created, this
+ * will be the view that the user will see in the case of an application
+ * that has authentication and the user is not logged in.
  *
- * Por lo general su uso se basa en armar componentes repetitivos como por
- * ejemplo <Sidebar />, <Header />, <Footer /> entre otros.
+ * In general, its use is based on assembling repetitive components such
+ * as: <Sidebar />, <Header />, <Footer />.
  */
 
 import React from 'react'

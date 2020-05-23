@@ -1,21 +1,21 @@
 /**
- * Añade un 0 adicional a los números menores a 9 para quedar con un
- * formato de dos dígitos.
+ * Add an additional 0 to numbers less than 9 to remain in a two-digit
+ * format.
  *
- * @param {number} value  un número menor a 9
+ * @param {number} value  a number less than 9
  *
- * @return {string} un string con un 0 adicinal a la izquierda
+ * @return {string} a string with an additional 0 to the left
  */
 export function padLeadingZero(value) {
   return value > 9 ? value : `0${value}`
 }
 
 /**
- * Formatea una fecha, estilo dd/mm/aaa.
+ * Format a date, style dd/mm/yyyy.
  *
- * @param {Date} [date] por defecto es la fecha actual
+ * @param {Date} [date] default is current date
  *
- * @return {string}     una fecha formateada estilo dd/mm/aaaa
+ * @return {string}     a date formatted style dd/mm/aaaa
  */
 export function getFormatDate(date = new Date()) {
   return `${padLeadingZero(date.getDate())}/${padLeadingZero(
@@ -24,11 +24,11 @@ export function getFormatDate(date = new Date()) {
 }
 
 /**
- * Formatea una hora, estilo hh:mm:ss
+ * Format an hour, style hh:mm:ss
  *
- * @param {*} [date]  por defecto es la fecha actual
+ * @param {*} [date]  default is current date
  *
- * @return {string}   una hora formateada estilo hh:mm:ss
+ * @return {string}   a hour formatted style hh:mm:ss
  */
 export function getFormatTime(date = new Date()) {
   return `${padLeadingZero(date.getHours())}:${padLeadingZero(
@@ -37,9 +37,9 @@ export function getFormatTime(date = new Date()) {
 }
 
 /**
- * Formatea una fecha con hora, estilo dd/mm/aaaa hh:mm:ss
+ * Format a date with time, style dd/mm/aaaa hh:mm:ss
  *
- * @return {string} fecha más hora con formato dd/mm/aaaa hh:mm:ss
+ * @return {string} date plus time with format dd/mm/aaaa hh:mm:ss
  */
 export function getFormatDateTime() {
   return `${getFormatDate()} ${getFormatTime()}`

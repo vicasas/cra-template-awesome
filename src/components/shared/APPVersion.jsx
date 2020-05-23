@@ -8,6 +8,6 @@
 import React from 'react'
 import { version } from '../../../package.json'
 
-export default function APPVersion() {
+export default function AppVersion() {
   return <div>{version}</div>
 }

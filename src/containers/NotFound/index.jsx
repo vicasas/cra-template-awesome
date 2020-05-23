@@ -1,7 +1,7 @@
 /**
- * NOT FOUND
+ * Not Found
  *
- * Componente de tipo container que represeta un error tipo 404.
+ * Not Found component. Error 404
  */
 
 import React from 'react'

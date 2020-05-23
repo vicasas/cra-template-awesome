@@ -1,7 +1,7 @@
 /**
- * ROUTES
+ * Routes
  *
- * Enrutador principal de la aplicación.
+ * Main router of the application.
  */
 
 import React from 'react'
