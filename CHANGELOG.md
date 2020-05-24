@@ -2,7 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+## 0.2.2 (2020-05-24)
+
+### Documentation
+
+- Document standardization
 
 ## 0.2.1 (2020-05-23)
 
