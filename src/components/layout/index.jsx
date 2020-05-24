@@ -5,10 +5,10 @@
  */
 
 import React from 'react'
-import Routes from '../routes'
+import Routes from '../Routes'
 import PublicLayout from './PublicLayout'
 import PrivateLayout from './PrivateLayout'
-import isLogin from '../../utils/auth'
+import isLogin from '../../utils/authFake'
 
 export default function Layout() {
   return (

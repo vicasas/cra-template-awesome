@@ -14,28 +14,28 @@ A custom template for the [Create React App](https://create-react-app.dev/). Usi
 
 ## Features
 
-* ✨ **Redux**: Managing the status of your application.
-* ✨ **PropTypes**: Type check for React props.
-* ✨ **React Router**: Managing the navigation of your application.
-* ✨ **Environments**: Custom environments (development, staging and production).
+- ✨ **Redux**: Managing the status of your application.
+- ✨ **PropTypes**: Type check for React props.
+- ✨ **React Router**: Managing the navigation of your application.
+- ✨ **Environments**: Custom environments (development, staging and production).
 
 For a better development experience, we added the following:
 
 😍 Help components already integrated.
 
-* ✨ **React.StrictMode**: Highlights possible problems in the application.
-* ✨ **Public/Private Routes**: Management of public and private routes.
-* ✨ **Public/Private Layout**: Management of public and private Layout.
+- ✨ **React.StrictMode**: Highlights possible problems in the application.
+- ✨ **Public/Private Routes**: Management of public and private routes.
+- ✨ **Public/Private Layout**: Management of public and private Layout.
 
 😍 Tools for code development
 
-* ✨ **EditorConfig** (*): Maintaining consistent coding styles.
-* ✨ **ESLint** (*): Find and fix problems in your JavaScript code.
-* ✨ **Prettier**: Always keep your code formatted.
-* ✨ **Husky**: Prevents Git's ills.
-* ✨ **lint-staged**: Run linters against Git files in confirmed state `git add`.
+- ✨ **EditorConfig** (\*): Maintaining consistent coding styles.
+- ✨ **ESLint** (\*): Find and fix problems in your JavaScript code.
+- ✨ **Prettier**: Always keep your code formatted.
+- ✨ **Husky**: Prevents Git's ills.
+- ✨ **lint-staged**: Run linters against Git files in confirmed state `git add`.
 
-> (*) PWe recommend that you have the extensions installed in your favorite code editor.
+> (\*) We recommend that you have the extensions installed in your favorite code editor.
 
 ## Quick Start
 
@@ -52,17 +52,17 @@ npm start
 
 With all the power of the Create React App `scripts`, plus the following we have created for you.
 
-> ⚠ We recommend that you do not use `npm run eject`.
+> ⚠ We recommend not using `npm run eject`.
 
 ### `npm run build:staging`
 
-It is used to `build` a solution that will be used directly on your test equipment or qa. It will take any settings that exist in the environment variables file `.env.staging`.
+Create a `build` for a staging or qa environment. It will take any settings that exist in the environment variables file `env.staging` or`.env`.
 
 ### `npm run build:development`
 
-It is used to `build` a solution that will be used directly on your dvelopment equipment. It will take any settings that exist in the environment variables file `.env.development`.
+Create a `build` for a development environment. It will take any settings that exist in the environment variables file `env.development` or`.env`.
 
-> What do I do to make a `build` in production? *-The default `npm run build` is still used, which will take the configurations that exist in the environment variables file` .env.production`.*
+> What do I do to make a `build` in production? _-The default `npm run build` is still used, which will take the configurations that exist in the environment variables file`.env.production` or `.env`._
 
 ### `npm run lint`
 
@@ -80,9 +80,9 @@ Used to format the code following the Prettier rules defined by the development 
 
 What is next?
 
-🔔 First things first, to launch our v1.0.0 we have set ourselves the goal of being an admissible `package` for [Custom Template] (https://create-react-app.dev/docs/custom-templates/) official [Create React App] (https://create-react-app.dev/), where developers can install the template using only the `npx create-react-app my-app --template awesome` command.
+🔔 First things first, to launch our v1.0.0 we have set ourselves the goal of being an admissible `package` for [Custom Template](https://create-react-app.dev/docs/custom-templates/) official [Create React App](https://create-react-app.dev/), where developers can install the template using only the `npx create-react-app my-app --template awesome` command.
 
-💥 Issue: Currently the CRA Custom Template does not work with the `devDependencies` of the` package.json` since this template has such dependencies we cannot take it to what we want. Can we find a solution?
+💥 Issue: Currently the CRA Custom Template does not work with the `devDependencies` of the`package.json` since this template has such dependencies we cannot take it to what we want. Can we find a solution?
 
 [...]
 

@@ -38,8 +38,8 @@ We recommend creating a feature branch based on the development branch as per th
 
 Follow the following branching example:
 
-* For a problem: `hotfix/[#issue]-[short-name-issue]`
-* For a feature: `feature/[#issue]-[short-name-issue]`
+- For a problem: `hotfix/[#issue]-[short-name-issue]`
+- For a feature: `feature/[#issue]-[short-name-issue]`
 
 The step by step
 
